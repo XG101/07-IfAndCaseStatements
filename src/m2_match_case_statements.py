@@ -21,15 +21,15 @@ def color_picker():
     color_chosen = input("Type the color of your lightsaber: ")
     match color_chosen:
         case "red":
-            print("The dark side is strong with one who chooses the " + color_chosen + " saber")
+            print("Success! You pciked red")
         case "blue":
-            print("One is strong with the light if you selected the " + color_chosen + " saber")
+            print("Success! You pciked blue")
         case "green":
-            print("Wise you are in the ways of the good if you select the " + color_chosen + " saber")
+            print("Success! You pciked green")
         case "black":
-            print("I guess you are a mandolorian if you want a " + color_chosen + " saber")
+            print("Success! You pciked black")
         case "orange":
-            print("You are both strong and wise in the light, and are willing to protect it since you chosed the " + color_chosen + " saber")
+            print("Success! You pciked orange")
         case _:
             print("Unknown Color")
 color_picker()
